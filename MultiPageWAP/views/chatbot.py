@@ -38,7 +38,8 @@ import openai
 
 
 st.title("ChatGPT - like Clone")
-openai.api_key=st.secrets["OPENAI_API_KEY"]
+# openai.api_key=st.secrets["OPENAI_API_KEY"]
+openai.api_key="sk-Q7xFWtr1PlNGA4YTgJJuHu4KHCfjLh32YuGyRIq11zT3BlbkFJYzIFLIdRURBUKTWycP2DEaATJDiC6xv2BP-fOrc3EA"
 
 if "openai_model" not in st.session_state:
     st.session_state["openai_model"]="gpt-3.5-turbo"
